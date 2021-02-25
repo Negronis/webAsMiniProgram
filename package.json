@@ -1,0 +1,39 @@
+{
+  "name": "wechatpay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "mp": "cross-env NODE_ENV=development webpack --config build/webpack.mp.config.js --progress",
+    "buildmp": "webpack --config build/webpack.mp.config.js --progress"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "cross-env": "^6.0.3",
+    "kbone-api": "^0.2.1",
+    "kbone-ui": "^0.5.8",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "mp-webpack-plugin": "^1.3.7",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "vue": "^2.6.11",
+    "vue-improve-loader": "^0.3.5",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "weixin-js-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^4.5.0"
+  }
+}
